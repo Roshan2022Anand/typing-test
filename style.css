@@ -1,0 +1,11 @@
+header{
+    text-align: center;
+    margin:10px 0;
+    font-size: 50px;
+}
+#type{
+    font-size: 30px;
+    font-weight: bolder;
+    width: 60vw;
+    margin: 0 auto;
+}

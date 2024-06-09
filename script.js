@@ -37,7 +37,7 @@ dialogBox.addEventListener("click", () => {
         } 
         if (keyPress.key == input && count <= letter.length - 1) {
             p.children[(count==0)?0:count-1].classList.remove("loc");
-            p.children[count++].classList.add("loc");
+            p.children[++count].classList.add("loc");
         } else p.children[count].style.color = "red";
 
     });
